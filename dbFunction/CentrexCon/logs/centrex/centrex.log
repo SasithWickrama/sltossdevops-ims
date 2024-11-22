@@ -1,0 +1,86 @@
+2022-03-11 08:20:27,631-INFO-SgBxGCz7R0  Start : =========================================================================
+2022-03-11 08:20:27,631-INFO-SgBxGCz7R0  command xml : CentrexAdd.xml
+2022-03-11 08:20:29,669-INFO-SgBxGCz7R0  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>2000</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94112342000</m:IMPU>
+      <m:CXD>2340</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO>1</m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-11 08:20:29,669-INFO-SgBxGCz7R0  Response : =================================
+2022-03-11 08:20:29,669-INFO-SgBxGCz7R0  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-11 08:20:29,669-INFO-SgBxGCz7R0  0#Operation succeeded.
+2022-03-11 08:20:29,669-INFO-SgBxGCz7R0  End   : =========================================================================
+2022-03-11 08:33:20,203-INFO-lU8KmikYyx  Start : =========================================================================
+2022-03-11 08:33:20,203-INFO-lU8KmikYyx  command xml : CentrexRmv.xml
+2022-03-11 08:33:21,703-INFO-lU8KmikYyx  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+    <SOAP-ENV:Header>
+        <m:Authentication>
+            <m:Username>sltprovision</m:Username>
+            <m:Password>SoftX3000@</m:Password>
+        </m:Authentication>
+        <m:MessageID>1</m:MessageID>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <m:RMV_CXSBR>
+            <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+            <m:IMPU>tel:+94112342000</m:IMPU>
+        </m:RMV_CXSBR>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-11 08:33:21,703-INFO-lU8KmikYyx  Response : =================================
+2022-03-11 08:33:21,703-INFO-lU8KmikYyx  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:RMV_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:RMV_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-11 08:33:21,703-INFO-lU8KmikYyx  0#Operation succeeded.
+2022-03-11 08:33:21,703-INFO-lU8KmikYyx  End   : =========================================================================
+
+2022-03-11 08:35:55,108-INFO-nVnGfSyBBL  Start : =========================================================================
+2022-03-11 08:35:55,108-INFO-nVnGfSyBBL  command xml : CentrexDigitMap.xml
+2022-03-11 08:35:55,701-INFO-nVnGfSyBBL  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+    <SOAP-ENV:Header>
+        <m:Authentication>
+            <m:Username>sltprovision</m:Username>
+            <m:Password>SoftX3000@</m:Password>
+        </m:Authentication>
+        <m:MessageID>1</m:MessageID>
+        <m:MEName>AGCF</m:MEName>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <m:ModAsbr_AGCF>
+            <m:PUI>sip:+94112342000@sltims.lk</m:PUI>
+            <m:DIGMAP>3</m:DIGMAP>
+            <m:MGN>AGCF</m:MGN>
+        </m:ModAsbr_AGCF>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-11 08:35:55,701-INFO-nVnGfSyBBL  Response : =================================
+2022-03-11 08:35:55,701-INFO-nVnGfSyBBL  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ModAsbr_AGCFResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ModAsbr_AGCFResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-11 08:35:55,701-INFO-nVnGfSyBBL  0#Operation succeeded.
+2022-03-11 08:35:55,701-INFO-nVnGfSyBBL  End   : =========================================================================

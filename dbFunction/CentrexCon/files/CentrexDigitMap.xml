@@ -1,0 +1,17 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+    <SOAP-ENV:Header>
+        <m:Authentication>
+            <m:Username>sltprovision</m:Username>
+            <m:Password>SoftX3000@</m:Password>
+        </m:Authentication>
+        <m:MessageID>1</m:MessageID>
+        <m:MEName>AGCF</m:MEName>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <m:ModAsbr_AGCF>
+            <m:PUI>sip:+tpno@sltims.lk</m:PUI>
+            <m:DIGMAP>digmap</m:DIGMAP>
+            <m:MGN>AGCF</m:MGN>
+        </m:ModAsbr_AGCF>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

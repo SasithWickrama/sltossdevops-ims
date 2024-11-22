@@ -1,0 +1,960 @@
+2022-03-21 12:40:54,650-INFO-Start : =========================================================================
+2022-03-21 12:40:54,650-INFO-0112396502 1
+2022-03-21 12:40:54,650-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112396502</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-21 12:40:54,650-INFO-Response : =================================
+2022-03-21 12:40:54,650-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-21 12:40:54,650-INFO-MSISDN NOT REQUESTED FOR SR
+2022-03-21 12:40:54,650-INFO-End : =========================================================================
+2022-03-21 12:44:45,227-INFO-Start : =========================================================================
+2022-03-21 12:44:45,227-INFO-0112396502 0
+2022-03-21 12:44:45,227-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112396502</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-21 12:44:45,227-INFO-Response : =================================
+2022-03-21 12:44:45,227-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT REGISTERED FOR VAS CRBT</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-21 12:44:45,242-INFO-NOT REGISTERED FOR VAS CRBT
+2022-03-21 12:44:45,242-INFO-End : =========================================================================
+2022-03-29 08:49:12,306-INFO-Start : =========================================================================
+2022-03-29 08:49:12,306-INFO-0112559700 1
+2022-03-29 08:49:12,306-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112559700</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 08:49:12,306-INFO-Response : =================================
+2022-03-29 08:49:12,306-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 08:49:12,321-INFO-MSISDN NOT REQUESTED FOR SR
+2022-03-29 08:49:12,321-INFO-End : =========================================================================
+2022-03-29 08:53:53,152-INFO-Start : =========================================================================
+2022-03-29 08:53:53,152-INFO-0112559700 1
+2022-03-29 08:53:53,152-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112559700</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 08:53:53,152-INFO-Response : =================================
+2022-03-29 08:53:53,152-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 08:53:53,152-INFO-MSISDN NOT REQUESTED FOR SR
+2022-03-29 08:53:53,152-INFO-End : =========================================================================
+2022-03-29 08:53:58,039-INFO-Start : =========================================================================
+2022-03-29 08:53:58,039-INFO-0112559700 0
+2022-03-29 08:53:58,039-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112559700</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 08:53:58,039-INFO-Response : =================================
+2022-03-29 08:53:58,039-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT REGISTERED FOR VAS CRBT</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 08:53:58,039-INFO-NOT REGISTERED FOR VAS CRBT
+2022-03-29 08:53:58,039-INFO-End : =========================================================================
+2022-03-29 08:54:38,653-INFO-Start : =========================================================================
+2022-03-29 08:54:38,653-INFO-0112559700 1
+2022-03-29 08:54:38,653-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112559700</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 08:54:38,653-INFO-Response : =================================
+2022-03-29 08:54:38,653-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 08:54:38,653-INFO-MSISDN NOT REQUESTED FOR SR
+2022-03-29 08:54:38,653-INFO-End : =========================================================================
+2022-03-29 09:47:57,350-INFO-Start : =========================================================================
+2022-03-29 09:47:57,350-INFO-0332286536 3
+2022-03-29 09:47:57,350-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332286536</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:47:57,350-INFO-Response : =================================
+2022-03-29 09:47:57,350-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:47:57,350-INFO-ALREADY ACTIVE STATE
+2022-03-29 09:47:57,350-INFO-End : =========================================================================
+2022-03-29 09:49:06,360-INFO-Start : =========================================================================
+2022-03-29 09:49:06,360-INFO-0332286536 2
+2022-03-29 09:49:06,360-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332286536</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:49:06,360-INFO-Response : =================================
+2022-03-29 09:49:06,360-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:49:06,360-INFO-0
+2022-03-29 09:49:06,360-INFO-End : =========================================================================
+2022-03-29 09:49:22,289-INFO-Start : =========================================================================
+2022-03-29 09:49:22,289-INFO-0332286536 3
+2022-03-29 09:49:22,289-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332286536</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:49:22,289-INFO-Response : =================================
+2022-03-29 09:49:22,289-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:49:22,289-INFO-0
+2022-03-29 09:49:22,289-INFO-End : =========================================================================
+2022-03-29 09:51:46,423-INFO-Start : =========================================================================
+2022-03-29 09:51:46,423-INFO-0112809917 0
+2022-03-29 09:51:46,423-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112809917</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:51:46,423-INFO-Response : =================================
+2022-03-29 09:51:46,423-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:51:46,423-INFO-0
+2022-03-29 09:51:46,423-INFO-End : =========================================================================
+2022-03-29 09:53:52,170-INFO-Start : =========================================================================
+2022-03-29 09:53:52,170-INFO-0112141558 1
+2022-03-29 09:53:52,170-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112141558</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:53:52,170-INFO-Response : =================================
+2022-03-29 09:53:52,170-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:53:52,170-INFO-0
+2022-03-29 09:53:52,170-INFO-End : =========================================================================
+2022-03-29 09:59:00,202-INFO-Start : =========================================================================
+2022-03-29 09:59:00,202-INFO-0452260119 0
+2022-03-29 09:59:00,202-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0452260119</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 09:59:00,202-INFO-Response : =================================
+2022-03-29 09:59:00,202-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-29 09:59:00,218-INFO-NOT IN ACTIVE STATE
+2022-03-29 09:59:00,218-INFO-End : =========================================================================
+2022-04-06 10:10:16,301-INFO-Start : =========================================================================
+2022-04-06 10:10:16,301-INFO-0112784904 1
+2022-04-06 10:10:16,301-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112784904</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:10:16,317-INFO-Response : =================================
+2022-04-06 10:10:16,317-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-06 10:10:16,317-INFO-0
+2022-04-06 10:10:16,317-INFO-End : =========================================================================
+2022-04-11 09:15:10,298-INFO-Start : =========================================================================
+2022-04-11 09:15:10,298-INFO-0112332385 3
+2022-04-11 09:15:10,298-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112332385</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:15:10,298-INFO-Response : =================================
+2022-04-11 09:15:10,298-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:15:10,314-INFO-ALREADY ACTIVE STATE
+2022-04-11 09:15:10,314-INFO-End : =========================================================================
+2022-04-11 09:16:22,709-INFO-Start : =========================================================================
+2022-04-11 09:16:22,709-INFO-0112053452 2
+2022-04-11 09:16:22,709-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112053452</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:16:22,709-INFO-Response : =================================
+2022-04-11 09:16:22,709-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:16:22,709-INFO-0
+2022-04-11 09:16:22,709-INFO-End : =========================================================================
+2022-04-11 09:16:43,092-INFO-Start : =========================================================================
+2022-04-11 09:16:43,092-INFO-0112053452 2
+2022-04-11 09:16:43,092-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112053452</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:16:43,092-INFO-Response : =================================
+2022-04-11 09:16:43,092-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY SUSPENDED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:16:43,092-INFO-ALREADY SUSPENDED
+2022-04-11 09:16:43,092-INFO-End : =========================================================================
+2022-04-11 09:18:48,291-INFO-Start : =========================================================================
+2022-04-11 09:18:48,291-INFO-0112057249 3
+2022-04-11 09:18:48,291-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112057249</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:18:48,291-INFO-Response : =================================
+2022-04-11 09:18:48,291-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:18:48,291-INFO-ALREADY ACTIVE STATE
+2022-04-11 09:18:48,291-INFO-End : =========================================================================
+2022-04-11 09:19:49,183-INFO-Start : =========================================================================
+2022-04-11 09:19:49,183-INFO-0112084159 2
+2022-04-11 09:19:49,183-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112084159</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:19:49,183-INFO-Response : =================================
+2022-04-11 09:19:49,183-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY SUSPENDED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:19:49,183-INFO-ALREADY SUSPENDED
+2022-04-11 09:19:49,183-INFO-End : =========================================================================
+2022-04-11 09:21:06,059-INFO-Start : =========================================================================
+2022-04-11 09:21:06,059-INFO-0112089633 0
+2022-04-11 09:21:06,059-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112089633</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:21:06,059-INFO-Response : =================================
+2022-04-11 09:21:06,059-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:21:06,059-INFO-NOT YET ACTIVATTED
+2022-04-11 09:21:06,059-INFO-End : =========================================================================
+2022-04-11 09:22:00,599-INFO-Start : =========================================================================
+2022-04-11 09:22:00,599-INFO-0353123003 3
+2022-04-11 09:22:00,599-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0353123003</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:22:00,599-INFO-Response : =================================
+2022-04-11 09:22:00,599-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:22:00,599-INFO-NOT IN ACTIVE STATE
+2022-04-11 09:22:00,599-INFO-End : =========================================================================
+2022-04-11 09:24:32,608-INFO-Start : =========================================================================
+2022-04-11 09:24:32,608-INFO-0112835259 2
+2022-04-11 09:24:32,608-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112835259</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:24:32,608-INFO-Response : =================================
+2022-04-11 09:24:32,608-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY SUSPENDED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:24:32,608-INFO-ALREADY SUSPENDED
+2022-04-11 09:24:32,608-INFO-End : =========================================================================
+2022-04-11 09:25:28,986-INFO-Start : =========================================================================
+2022-04-11 09:25:28,986-INFO-0913911889 0
+2022-04-11 09:25:28,986-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0913911889</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:25:28,986-INFO-Response : =================================
+2022-04-11 09:25:28,986-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:25:28,986-INFO-NOT IN ACTIVE STATE
+2022-04-11 09:25:28,986-INFO-End : =========================================================================
+2022-04-11 09:26:09,166-INFO-Start : =========================================================================
+2022-04-11 09:26:09,166-INFO-0912242903 0
+2022-04-11 09:26:09,166-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0912242903</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:26:09,166-INFO-Response : =================================
+2022-04-11 09:26:09,166-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:26:09,166-INFO-NOT YET ACTIVATTED
+2022-04-11 09:26:09,166-INFO-End : =========================================================================
+2022-04-11 09:26:55,055-INFO-Start : =========================================================================
+2022-04-11 09:26:55,055-INFO-0112513094 1
+2022-04-11 09:26:55,055-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112513094</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:26:55,055-INFO-Response : =================================
+2022-04-11 09:26:55,055-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:26:55,055-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-11 09:26:55,055-INFO-End : =========================================================================
+2022-04-11 09:27:13,738-INFO-Start : =========================================================================
+2022-04-11 09:27:13,738-INFO-0112547182 1
+2022-04-11 09:27:13,738-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112547182</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:27:13,738-INFO-Response : =================================
+2022-04-11 09:27:13,738-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:27:13,738-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-11 09:27:13,738-INFO-End : =========================================================================
+2022-04-11 09:27:36,128-INFO-Start : =========================================================================
+2022-04-11 09:27:36,128-INFO-0912292552 1
+2022-04-11 09:27:36,128-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0912292552</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 09:27:36,128-INFO-Response : =================================
+2022-04-11 09:27:36,128-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:27:36,128-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-11 09:27:36,128-INFO-End : =========================================================================
+2022-04-11 16:00:47,654-INFO-Start : =========================================================================
+2022-04-11 16:00:47,654-INFO-0212240063 0
+2022-04-11 16:00:47,654-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0212240063</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-11 16:00:47,654-INFO-Response : =================================
+2022-04-11 16:00:47,654-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY DEACTIVATED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 16:00:47,654-INFO-ALREADY DEACTIVATED
+2022-04-11 16:00:47,654-INFO-End : =========================================================================
+2022-04-18 10:19:26,044-INFO-Start : =========================================================================
+2022-04-18 10:19:26,044-INFO-0112332385 3
+2022-04-18 10:19:26,044-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112332385</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:19:26,044-INFO-Response : =================================
+2022-04-18 10:19:26,044-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">0</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:19:26,044-INFO-0
+2022-04-18 10:19:26,044-INFO-End : =========================================================================
+2022-04-18 10:20:24,989-INFO-Start : =========================================================================
+2022-04-18 10:20:24,989-INFO-0112332385 3
+2022-04-18 10:20:24,989-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112332385</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:20:24,989-INFO-Response : =================================
+2022-04-18 10:20:24,989-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:20:24,989-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:20:24,989-INFO-End : =========================================================================
+2022-04-18 10:24:36,149-INFO-Start : =========================================================================
+2022-04-18 10:24:36,149-INFO-0112332385 3
+2022-04-18 10:24:36,149-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112332385</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:24:36,149-INFO-Response : =================================
+2022-04-18 10:24:36,149-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:24:36,149-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:24:36,149-INFO-End : =========================================================================
+2022-04-18 10:25:23,459-INFO-Start : =========================================================================
+2022-04-18 10:25:23,459-INFO-0112901992 3
+2022-04-18 10:25:23,459-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112901992</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:25:23,459-INFO-Response : =================================
+2022-04-18 10:25:23,459-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:25:23,459-INFO-NOT IN ACTIVE STATE
+2022-04-18 10:25:23,459-INFO-End : =========================================================================
+2022-04-18 10:26:01,551-INFO-Start : =========================================================================
+2022-04-18 10:26:01,551-INFO-0112901992 3
+2022-04-18 10:26:01,551-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112901992</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:26:01,551-INFO-Response : =================================
+2022-04-18 10:26:01,551-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:26:01,551-INFO-NOT IN ACTIVE STATE
+2022-04-18 10:26:01,551-INFO-End : =========================================================================
+2022-04-18 10:27:01,242-INFO-Start : =========================================================================
+2022-04-18 10:27:01,242-INFO-0272227287 3
+2022-04-18 10:27:01,242-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0272227287</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:27:01,242-INFO-Response : =================================
+2022-04-18 10:27:01,242-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:27:01,242-INFO-NOT IN ACTIVE STATE
+2022-04-18 10:27:01,242-INFO-End : =========================================================================
+2022-04-18 10:27:41,886-INFO-Start : =========================================================================
+2022-04-18 10:27:41,886-INFO-0332222454 3
+2022-04-18 10:27:41,886-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:27:41,886-INFO-Response : =================================
+2022-04-18 10:27:41,886-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:27:41,886-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:27:41,886-INFO-End : =========================================================================
+2022-04-18 10:28:35,609-INFO-Start : =========================================================================
+2022-04-18 10:28:35,609-INFO-0332222454 3
+2022-04-18 10:28:35,609-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:28:35,609-INFO-Response : =================================
+2022-04-18 10:28:35,609-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:28:35,609-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:28:35,609-INFO-End : =========================================================================
+2022-04-18 10:30:41,984-INFO-Start : =========================================================================
+2022-04-18 10:30:41,984-INFO-0332222454 0
+2022-04-18 10:30:41,984-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:30:41,984-INFO-Response : =================================
+2022-04-18 10:30:41,984-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:30:41,984-INFO-NOT YET ACTIVATTED
+2022-04-18 10:30:41,984-INFO-End : =========================================================================
+2022-04-18 10:31:09,835-INFO-Start : =========================================================================
+2022-04-18 10:31:09,835-INFO-0332222454 3
+2022-04-18 10:31:09,835-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:31:09,835-INFO-Response : =================================
+2022-04-18 10:31:09,835-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:31:09,835-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:31:09,835-INFO-End : =========================================================================
+2022-04-18 10:31:18,863-INFO-Start : =========================================================================
+2022-04-18 10:31:18,863-INFO-0332222454 0
+2022-04-18 10:31:18,863-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:31:18,863-INFO-Response : =================================
+2022-04-18 10:31:18,863-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:31:18,863-INFO-NOT YET ACTIVATTED
+2022-04-18 10:31:18,863-INFO-End : =========================================================================
+2022-04-18 10:32:17,831-INFO-Start : =========================================================================
+2022-04-18 10:32:17,831-INFO-0332283063 3
+2022-04-18 10:32:17,831-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332283063</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:32:17,831-INFO-Response : =================================
+2022-04-18 10:32:17,831-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:32:17,831-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:32:17,831-INFO-End : =========================================================================
+2022-04-18 10:33:36,382-INFO-Start : =========================================================================
+2022-04-18 10:33:36,382-INFO-0332222454 0
+2022-04-18 10:33:36,382-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:33:36,382-INFO-Response : =================================
+2022-04-18 10:33:36,382-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:33:36,382-INFO-NOT YET ACTIVATTED
+2022-04-18 10:33:36,382-INFO-End : =========================================================================
+2022-04-18 10:34:00,784-INFO-Start : =========================================================================
+2022-04-18 10:34:00,784-INFO-0332222454 3
+2022-04-18 10:34:00,784-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:34:00,784-INFO-Response : =================================
+2022-04-18 10:34:00,784-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:34:00,784-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:34:00,784-INFO-End : =========================================================================
+2022-04-18 10:36:08,665-INFO-Start : =========================================================================
+2022-04-18 10:36:08,665-INFO-0332222454 0
+2022-04-18 10:36:08,665-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:36:08,665-INFO-Response : =================================
+2022-04-18 10:36:08,665-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:36:08,665-INFO-NOT YET ACTIVATTED
+2022-04-18 10:36:08,665-INFO-End : =========================================================================
+2022-04-18 10:37:04,372-INFO-Start : =========================================================================
+2022-04-18 10:37:04,372-INFO-0332283063 3
+2022-04-18 10:37:04,372-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332283063</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:37:04,372-INFO-Response : =================================
+2022-04-18 10:37:04,372-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:37:04,372-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:37:04,372-INFO-End : =========================================================================
+2022-04-18 10:38:25,571-INFO-Start : =========================================================================
+2022-04-18 10:38:25,571-INFO-0332283063 3
+2022-04-18 10:38:25,571-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332283063</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:38:25,571-INFO-Response : =================================
+2022-04-18 10:38:25,571-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:38:25,571-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:38:25,571-INFO-End : =========================================================================
+2022-04-18 10:39:17,691-INFO-Start : =========================================================================
+2022-04-18 10:39:17,691-INFO-0332283063 3
+2022-04-18 10:39:17,691-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332283063</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:39:17,707-INFO-Response : =================================
+2022-04-18 10:39:17,707-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:39:17,707-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:39:17,707-INFO-End : =========================================================================
+2022-04-18 10:44:13,810-INFO-Start : =========================================================================
+2022-04-18 10:44:13,810-INFO-0353123003 3
+2022-04-18 10:44:13,810-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0353123003</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:44:13,810-INFO-Response : =================================
+2022-04-18 10:44:13,810-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:44:13,810-INFO-NOT IN ACTIVE STATE
+2022-04-18 10:44:13,810-INFO-End : =========================================================================
+2022-04-18 10:45:42,127-INFO-Start : =========================================================================
+2022-04-18 10:45:42,127-INFO-0652251337 3
+2022-04-18 10:45:42,127-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0652251337</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:45:42,127-INFO-Response : =================================
+2022-04-18 10:45:42,127-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:45:42,127-INFO-ALREADY ACTIVE STATE
+2022-04-18 10:45:42,127-INFO-End : =========================================================================
+2022-04-18 10:48:09,902-INFO-Start : =========================================================================
+2022-04-18 10:48:09,902-INFO-0112901992 3
+2022-04-18 10:48:09,902-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112901992</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 10:48:09,902-INFO-Response : =================================
+2022-04-18 10:48:09,902-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT IN ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 10:48:09,902-INFO-NOT IN ACTIVE STATE
+2022-04-18 10:48:09,902-INFO-End : =========================================================================
+2022-04-18 11:59:32,911-INFO-Start : =========================================================================
+2022-04-18 11:59:32,911-INFO-0332222454 1
+2022-04-18 11:59:32,911-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-18 11:59:32,926-INFO-Response : =================================
+2022-04-18 11:59:32,926-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-18 11:59:32,926-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-18 11:59:32,926-INFO-End : =========================================================================
+2022-04-19 09:35:13,897-INFO-Start : =========================================================================
+2022-04-19 09:35:13,897-INFO-0332222454 0
+2022-04-19 09:35:13,897-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332222454</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-19 09:35:13,897-INFO-Response : =================================
+2022-04-19 09:35:13,897-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-19 09:35:13,897-INFO-NOT YET ACTIVATTED
+2022-04-19 09:35:13,897-INFO-End : =========================================================================
+2022-04-19 09:38:56,359-INFO-Start : =========================================================================
+2022-04-19 09:38:56,359-INFO-0112057249 3
+2022-04-19 09:38:56,359-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112057249</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-19 09:38:56,359-INFO-Response : =================================
+2022-04-19 09:38:56,359-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-19 09:38:56,359-INFO-ALREADY ACTIVE STATE
+2022-04-19 09:38:56,359-INFO-End : =========================================================================
+2022-04-19 09:41:48,028-INFO-Start : =========================================================================
+2022-04-19 09:41:48,028-INFO-0112084159 2
+2022-04-19 09:41:48,043-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112084159</msisdn>
+            <status xsi:type="xsd:string">2</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-19 09:41:48,043-INFO-Response : =================================
+2022-04-19 09:41:48,043-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY SUSPENDED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-19 09:41:48,043-INFO-ALREADY SUSPENDED
+2022-04-19 09:41:48,043-INFO-End : =========================================================================
+2022-04-19 09:49:18,758-INFO-Start : =========================================================================
+2022-04-19 09:49:18,758-INFO-0112089633 0
+2022-04-19 09:49:18,758-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112089633</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-19 09:49:18,758-INFO-Response : =================================
+2022-04-19 09:49:18,758-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-19 09:49:18,758-INFO-NOT YET ACTIVATTED
+2022-04-19 09:49:18,758-INFO-End : =========================================================================
+2022-04-19 09:51:12,455-INFO-Start : =========================================================================
+2022-04-19 09:51:12,455-INFO-0112150441 0
+2022-04-19 09:51:12,455-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112150441</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-19 09:51:12,455-INFO-Response : =================================
+2022-04-19 09:51:12,455-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-19 09:51:12,455-INFO-NOT YET ACTIVATTED
+2022-04-19 09:51:12,455-INFO-End : =========================================================================
+2022-04-20 08:16:59,025-INFO-Start : =========================================================================
+2022-04-20 08:16:59,025-INFO-0212241160 0
+2022-04-20 08:16:59,025-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0212241160</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 08:16:59,025-INFO-Response : =================================
+2022-04-20 08:16:59,025-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 08:16:59,025-INFO-NOT YET ACTIVATTED
+2022-04-20 08:16:59,025-INFO-End : =========================================================================
+2022-04-20 08:30:30,171-INFO-Start : =========================================================================
+2022-04-20 08:30:30,171-INFO-0342210965 0
+2022-04-20 08:30:30,171-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0342210965</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 08:30:30,171-INFO-Response : =================================
+2022-04-20 08:30:30,171-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 08:30:30,171-INFO-NOT YET ACTIVATTED
+2022-04-20 08:30:30,171-INFO-End : =========================================================================
+2022-04-20 08:52:22,253-INFO-Start : =========================================================================
+2022-04-20 08:52:22,253-INFO-0342210965 0
+2022-04-20 08:52:22,253-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0342210965</msisdn>
+            <status xsi:type="xsd:string">0</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 08:52:22,253-INFO-Response : =================================
+2022-04-20 08:52:22,253-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">NOT YET ACTIVATTED</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 08:52:22,253-INFO-NOT YET ACTIVATTED
+2022-04-20 08:52:22,253-INFO-End : =========================================================================
+2022-04-20 09:58:07,505-INFO-Start : =========================================================================
+2022-04-20 09:58:07,505-INFO-0332270120 1
+2022-04-20 09:58:07,505-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0332270120</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 09:58:07,505-INFO-Response : =================================
+2022-04-20 09:58:07,505-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 09:58:07,505-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-20 09:58:07,505-INFO-End : =========================================================================
+2022-04-20 09:59:39,496-INFO-Start : =========================================================================
+2022-04-20 09:59:39,496-INFO-0812073252 1
+2022-04-20 09:59:39,496-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0812073252</msisdn>
+            <status xsi:type="xsd:string">1</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 09:59:39,496-INFO-Response : =================================
+2022-04-20 09:59:39,496-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">MSISDN NOT REQUESTED FOR SR</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 09:59:39,496-INFO-MSISDN NOT REQUESTED FOR SR
+2022-04-20 09:59:39,496-INFO-End : =========================================================================
+2022-04-20 10:00:51,657-INFO-Start : =========================================================================
+2022-04-20 10:00:51,657-INFO-0112717040 3
+2022-04-20 10:00:51,657-INFO-<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:callbackservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:provisioncallback.getStatus soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <msisdn xsi:type="xsd:string">0112717040</msisdn>
+            <status xsi:type="xsd:string">3</status>
+        </urn:provisioncallback.getStatus>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-20 10:00:51,657-INFO-Response : =================================
+2022-04-20 10:00:51,657-INFO-<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:provisioncallback.getStatusResponse xmlns:ns1="urn:callbackservice"><return xsi:type="xsd:string">ALREADY ACTIVE STATE</return></ns1:provisioncallback.getStatusResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-20 10:00:51,657-INFO-ALREADY ACTIVE STATE
+2022-04-20 10:00:51,657-INFO-End : =========================================================================

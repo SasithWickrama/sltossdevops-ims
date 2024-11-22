@@ -1,0 +1,1992 @@
+2022-03-29 11:11:44,310-INFO-Start : =========================================================================
+2022-03-29 11:11:44,310-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>CEN_C300M_30</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-13-3</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>HWTC5EB20A9E</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:11:44,310-INFO-Response : =================================
+2022-03-29 11:11:44,310-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:11:44,310-INFO-End   : =========================================================================
+2022-03-29 11:11:58,906-INFO-Start : =========================================================================
+2022-03-29 11:11:58,906-INFO-{'ADSL_ZTE_DNAME': 'CEN_C300M_30', 'FTTH_ZTE_PID': '1-1-13-3', 'FTTH_ONT_SN': 'HWTC5EB20A9E', 'FTTH_HUW_VP': '59', 'ZTE_NMS_REGID': '94112432473', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-03-29 11:11:58,906-INFO-FTTH_ZTEADD_ONU.xml
+2022-03-29 11:11:58,906-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>CEN_C300M_30</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-13-3</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>HWTC5EB20A9E</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>59</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112432473</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:11:58,906-INFO-Response : =================================
+2022-03-29 11:11:58,906-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:11:58,906-INFO-0#No Error
+2022-03-29 11:11:58,906-INFO-End   : =========================================================================
+2022-03-29 11:11:59,515-INFO-Start : =========================================================================
+2022-03-29 11:11:59,515-INFO-{'ADSL_ZTE_DNAME': 'CEN_C300M_30', 'FTTH_ZTE_PID': '1-1-13-3', 'FTTH_HUW_VP': '59', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'ZTE_ONUTYPE': '100M'}
+2022-03-29 11:11:59,515-INFO-FTTH_ZTEX_BIDP.xml
+2022-03-29 11:11:59,515-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>CEN_C300M_30</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-13-3-59</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-FTTH_INTERNET_PKG</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:11:59,515-INFO-Response : =================================
+2022-03-29 11:11:59,515-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>DDOF</statusCode><statusDesc>device operation failed (Record doesn't exist.)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:11:59,515-INFO-DDOF#device operation failed (Record doesn\'t exist.)
+2022-03-29 11:11:59,515-INFO-End   : =========================================================================
+2022-03-29 11:12:03,853-INFO-Start : =========================================================================
+2022-03-29 11:12:03,853-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>CEN_C300M_30</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:12:03,853-INFO-Response : =================================
+2022-03-29 11:12:03,853-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>61</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>6</value></param><param><name>VLANNAME</name><value>VLAN0006</value></param></record><record><param><name>VLANID</name><value>17</value></param><param><name>VLANNAME</name><value>VLAN0017</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>19</value></param><param><name>VLANNAME</name><value>ENTERPRISE_WIFI</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>36</value></param><param><name>VLANNAME</name><value>VLAN0036</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>60</value></param><param><name>VLANNAME</name><value>VLAN0060</value></param></record><record><param><name>VLANID</name><value>61</value></param><param><name>VLANNAME</name><value>VLAN0061</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>80</value></param><param><name>VLANNAME</name><value>TEST_INTERNET_OUTER</value></param></record><record><param><name>VLANID</name><value>98</value></param><param><name>VLANNAME</name><value>VLAN0098</value></param></record><record><param><name>VLANID</name><value>100</value></param><param><name>VLANNAME</name><value>TEST_INNER_VLAN</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D87599_LANKA_GARMENTS</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D89635_SRI_RAMCO_BIL</value></param></record><record><param><name>VLANID</name><value>104</value></param><param><name>VLANNAME</name><value>D45639_CEWO</value></param></record><record><param><name>VLANID</name><value>105</value></param><param><name>VLANNAME</name><value>D92450_GLOBAL_CONSOLIDATORS</value></param></record><record><param><name>VLANID</name><value>106</value></param><param><name>VLANNAME</name><value>D94823_OFF_OF_THE_CABINET_OF_MIN</value></param></record><record><param><name>VLANID</name><value>109</value></param><param><name>VLANNAME</name><value>VLAN0109</value></param></record><record><param><name>VLANID</name><value>120</value></param><param><name>VLANNAME</name><value>VLAN0120</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>123</value></param><param><name>VLANNAME</name><value>VLAN0123</value></param></record><record><param><name>VLANID</name><value>220</value></param><param><name>VLANNAME</name><value>test</value></param></record><record><param><name>VLANID</name><value>327</value></param><param><name>VLANNAME</name><value>Voice_HW_SS</value></param></record><record><param><name>VLANID</name><value>653</value></param><param><name>VLANNAME</name><value>VLAN0653</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>662</value></param><param><name>VLANNAME</name><value>VLAN0662</value></param></record><record><param><name>VLANID</name><value>663</value></param><param><name>VLANNAME</name><value>VLAN0663</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1009</value></param><param><name>VLANNAME</name><value>VLAN1009</value></param></record><record><param><name>VLANID</name><value>1013</value></param><param><name>VLANNAME</name><value>VLAN1013</value></param></record><record><param><name>VLANID</name><value>1033</value></param><param><name>VLANNAME</name><value>VLAN1033</value></param></record><record><param><name>VLANID</name><value>1209</value></param><param><name>VLANNAME</name><value>VLAN1209</value></param></record><record><param><name>VLANID</name><value>1223</value></param><param><name>VLANNAME</name><value>VLAN1223</value></param></record><record><param><name>VLANID</name><value>1227</value></param><param><name>VLANNAME</name><value>VLAN1227</value></param></record><record><param><name>VLANID</name><value>1307</value></param><param><name>VLANNAME</name><value>VLAN1307</value></param></record><record><param><name>VLANID</name><value>1313</value></param><param><name>VLANNAME</name><value>VLAN1313</value></param></record><record><param><name>VLANID</name><value>1327</value></param><param><name>VLANNAME</name><value>VLAN1327</value></param></record><record><param><name>VLANID</name><value>1329</value></param><param><name>VLANNAME</name><value>VLAN1329</value></param></record><record><param><name>VLANID</name><value>1516</value></param><param><name>VLANNAME</name><value>VLAN1516</value></param></record><record><param><name>VLANID</name><value>1581</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1583</value></param><param><name>VLANNAME</name><value>VLAN1583</value></param></record><record><param><name>VLANID</name><value>1616</value></param><param><name>VLANNAME</name><value>VLAN1616</value></param></record><record><param><name>VLANID</name><value>1681</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1683</value></param><param><name>VLANNAME</name><value>VLAN1683</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>ENET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>VLAN3001</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D87724_LANKA_GARMENTS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>VLAN3003</value></param></record><record><param><name>VLANID</name><value>3005</value></param><param><name>VLANNAME</name><value>VLAN3005</value></param></record><record><param><name>VLANID</name><value>3006</value></param><param><name>VLANNAME</name><value>VLAN3006</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>VLAN3007</value></param></record><record><param><name>VLANID</name><value>3232</value></param><param><name>VLANNAME</name><value>VLAN3232</value></param></record><record><param><name>VLANID</name><value>3789</value></param><param><name>VLANNAME</name><value>VLAN3789</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:12:03,853-INFO-End   : =========================================================================
+2022-03-29 11:12:04,071-INFO-Start : =========================================================================
+2022-03-29 11:12:04,071-INFO-{'ADSL_ZTE_DNAME': 'CEN_C300M_30', 'FTTH_ZTE_PID': '1-1-13-3', 'FTTH_HUW_VP': '59', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '660'}
+2022-03-29 11:12:04,071-INFO-FTTH_VSER_PORT.xml
+2022-03-29 11:12:04,071-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>CEN_C300M_30</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-13-3-59</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:12:04,071-INFO-Response : =================================
+2022-03-29 11:12:04,071-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>DDOF</statusCode><statusDesc>device operation failed (Invalid port.)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:12:04,071-INFO-DDOF#device operation failed (Invalid port.)
+2022-03-29 11:12:04,071-INFO-End   : =========================================================================
+2022-03-29 11:12:06,871-INFO-Start : =========================================================================
+2022-03-29 11:12:06,871-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>CEN_C300M_30</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:12:06,871-INFO-Response : =================================
+2022-03-29 11:12:06,871-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>61</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>6</value></param><param><name>VLANNAME</name><value>VLAN0006</value></param></record><record><param><name>VLANID</name><value>17</value></param><param><name>VLANNAME</name><value>VLAN0017</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>19</value></param><param><name>VLANNAME</name><value>ENTERPRISE_WIFI</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>36</value></param><param><name>VLANNAME</name><value>VLAN0036</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>60</value></param><param><name>VLANNAME</name><value>VLAN0060</value></param></record><record><param><name>VLANID</name><value>61</value></param><param><name>VLANNAME</name><value>VLAN0061</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>80</value></param><param><name>VLANNAME</name><value>TEST_INTERNET_OUTER</value></param></record><record><param><name>VLANID</name><value>98</value></param><param><name>VLANNAME</name><value>VLAN0098</value></param></record><record><param><name>VLANID</name><value>100</value></param><param><name>VLANNAME</name><value>TEST_INNER_VLAN</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D87599_LANKA_GARMENTS</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D89635_SRI_RAMCO_BIL</value></param></record><record><param><name>VLANID</name><value>104</value></param><param><name>VLANNAME</name><value>D45639_CEWO</value></param></record><record><param><name>VLANID</name><value>105</value></param><param><name>VLANNAME</name><value>D92450_GLOBAL_CONSOLIDATORS</value></param></record><record><param><name>VLANID</name><value>106</value></param><param><name>VLANNAME</name><value>D94823_OFF_OF_THE_CABINET_OF_MIN</value></param></record><record><param><name>VLANID</name><value>109</value></param><param><name>VLANNAME</name><value>VLAN0109</value></param></record><record><param><name>VLANID</name><value>120</value></param><param><name>VLANNAME</name><value>VLAN0120</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>123</value></param><param><name>VLANNAME</name><value>VLAN0123</value></param></record><record><param><name>VLANID</name><value>220</value></param><param><name>VLANNAME</name><value>test</value></param></record><record><param><name>VLANID</name><value>327</value></param><param><name>VLANNAME</name><value>Voice_HW_SS</value></param></record><record><param><name>VLANID</name><value>653</value></param><param><name>VLANNAME</name><value>VLAN0653</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>662</value></param><param><name>VLANNAME</name><value>VLAN0662</value></param></record><record><param><name>VLANID</name><value>663</value></param><param><name>VLANNAME</name><value>VLAN0663</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1009</value></param><param><name>VLANNAME</name><value>VLAN1009</value></param></record><record><param><name>VLANID</name><value>1013</value></param><param><name>VLANNAME</name><value>VLAN1013</value></param></record><record><param><name>VLANID</name><value>1033</value></param><param><name>VLANNAME</name><value>VLAN1033</value></param></record><record><param><name>VLANID</name><value>1209</value></param><param><name>VLANNAME</name><value>VLAN1209</value></param></record><record><param><name>VLANID</name><value>1223</value></param><param><name>VLANNAME</name><value>VLAN1223</value></param></record><record><param><name>VLANID</name><value>1227</value></param><param><name>VLANNAME</name><value>VLAN1227</value></param></record><record><param><name>VLANID</name><value>1307</value></param><param><name>VLANNAME</name><value>VLAN1307</value></param></record><record><param><name>VLANID</name><value>1313</value></param><param><name>VLANNAME</name><value>VLAN1313</value></param></record><record><param><name>VLANID</name><value>1327</value></param><param><name>VLANNAME</name><value>VLAN1327</value></param></record><record><param><name>VLANID</name><value>1329</value></param><param><name>VLANNAME</name><value>VLAN1329</value></param></record><record><param><name>VLANID</name><value>1516</value></param><param><name>VLANNAME</name><value>VLAN1516</value></param></record><record><param><name>VLANID</name><value>1581</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1583</value></param><param><name>VLANNAME</name><value>VLAN1583</value></param></record><record><param><name>VLANID</name><value>1616</value></param><param><name>VLANNAME</name><value>VLAN1616</value></param></record><record><param><name>VLANID</name><value>1681</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1683</value></param><param><name>VLANNAME</name><value>VLAN1683</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>ENET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>VLAN3001</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D87724_LANKA_GARMENTS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>VLAN3003</value></param></record><record><param><name>VLANID</name><value>3005</value></param><param><name>VLANNAME</name><value>VLAN3005</value></param></record><record><param><name>VLANID</name><value>3006</value></param><param><name>VLANNAME</name><value>VLAN3006</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>VLAN3007</value></param></record><record><param><name>VLANID</name><value>3232</value></param><param><name>VLANNAME</name><value>VLAN3232</value></param></record><record><param><name>VLANID</name><value>3789</value></param><param><name>VLANNAME</name><value>VLAN3789</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:12:06,871-INFO-End   : =========================================================================
+2022-03-29 11:12:07,058-INFO-Start : =========================================================================
+2022-03-29 11:12:07,058-INFO-{'ADSL_ZTE_DNAME': 'CEN_C300M_30', 'FTTH_ZTE_PID': '1-1-13-3', 'FTTH_HUW_VP': '59', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1581'}
+2022-03-29 11:12:07,074-INFO-FTH_ISER_POT.xml
+2022-03-29 11:12:07,074-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>CEN_C300M_30</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-13-3-59</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>Entree</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 11:12:07,074-INFO-Response : =================================
+2022-03-29 11:12:07,074-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>IIPE</statusCode><statusDesc>input parameter error (NETWORKSVID)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 11:12:07,074-INFO-IIPE#input parameter error (NETWORKSVID)
+2022-03-29 11:12:07,074-INFO-End   : =========================================================================
+2022-03-29 20:07:36,837-INFO-Start : =========================================================================
+2022-03-29 20:07:36,837-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60'}
+2022-03-29 20:07:36,837-INFO-command xml : FTTH_DEL_ONU.xml
+2022-03-29 20:07:36,837-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:07:36,837-INFO-Response : =================================
+2022-03-29 20:07:36,837-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:07:36,837-INFO-0#N
+2022-03-29 20:07:36,837-INFO-End   : =========================================================================
+2022-03-29 20:07:49,025-INFO-Start : =========================================================================
+2022-03-29 20:07:49,025-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_HUW_VP': '60', 'ZTE_NMS_REGID': '94112967555', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-03-29 20:07:49,025-INFO-command xml : FTTH_ZTEADD_ONU.xml
+2022-03-29 20:07:49,025-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>60</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112967555</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:07:49,025-INFO-Response : =================================
+2022-03-29 20:07:49,025-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:07:49,025-INFO-0#No Error
+2022-03-29 20:07:49,025-INFO-End   : =========================================================================
+2022-03-29 20:07:50,041-INFO-Start : =========================================================================
+2022-03-29 20:07:50,041-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'ZTE_ONUTYPE': '100M'}
+2022-03-29 20:07:50,041-INFO-command xml : FTTH_ZTEX_BIDP.xml
+2022-03-29 20:07:50,041-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:07:50,041-INFO-Response : =================================
+2022-03-29 20:07:50,041-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:07:50,041-INFO-0#No Error
+2022-03-29 20:07:50,041-INFO-End   : =========================================================================
+2022-03-29 20:07:54,881-INFO-Start : =========================================================================
+2022-03-29 20:07:54,881-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE'}
+2022-03-29 20:07:54,881-INFO-command xml : lst_vlan.xml
+2022-03-29 20:07:54,881-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:07:54,881-INFO-Response : =================================
+2022-03-29 20:07:54,881-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>33</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:07:54,881-INFO-{'VOBB': '660'}
+2022-03-29 20:07:54,881-INFO-End   : =========================================================================
+2022-03-29 20:07:55,100-INFO-Start : =========================================================================
+2022-03-29 20:07:55,100-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '660'}
+2022-03-29 20:07:55,100-INFO-command xml : FTTH_VSER_PORT.xml
+2022-03-29 20:07:55,100-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:07:55,100-INFO-Response : =================================
+2022-03-29 20:07:55,100-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:07:55,100-INFO-0#No Error
+2022-03-29 20:07:55,100-INFO-End   : =========================================================================
+2022-03-29 20:08:01,450-INFO-Start : =========================================================================
+2022-03-29 20:08:01,450-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB'}
+2022-03-29 20:08:01,450-INFO-command xml : lst_vlan.xml
+2022-03-29 20:08:01,450-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:08:01,450-INFO-Response : =================================
+2022-03-29 20:08:01,450-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>33</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:08:01,450-INFO-{'EVLAN': '1000', 'SVLAN': '1571'}
+2022-03-29 20:08:01,450-INFO-End   : =========================================================================
+2022-03-29 20:08:01,638-INFO-Start : =========================================================================
+2022-03-29 20:08:01,638-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1571'}
+2022-03-29 20:08:01,638-INFO-command xml : FTH_ISER_POT.xml
+2022-03-29 20:08:01,638-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>Entree</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:08:01,638-INFO-Response : =================================
+2022-03-29 20:08:01,638-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>IIPE</statusCode><statusDesc>input parameter error (NETWORKSVID)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:08:01,638-INFO-IIPE#input parameter error (NETWORKSVID)
+2022-03-29 20:08:01,638-INFO-End   : =========================================================================
+2022-03-29 20:10:23,977-INFO-Start : =========================================================================
+2022-03-29 20:10:23,977-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60'}
+2022-03-29 20:10:23,977-INFO-command xml : FTTH_DEL_ONU.xml
+2022-03-29 20:10:23,977-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:23,977-INFO-Response : =================================
+2022-03-29 20:10:23,977-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:23,977-INFO-0#N
+2022-03-29 20:10:23,977-INFO-End   : =========================================================================
+2022-03-29 20:10:36,995-INFO-Start : =========================================================================
+2022-03-29 20:10:36,995-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_HUW_VP': '60', 'ZTE_NMS_REGID': '94112967555', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-03-29 20:10:36,995-INFO-command xml : FTTH_ZTEADD_ONU.xml
+2022-03-29 20:10:36,995-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>60</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112967555</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:36,995-INFO-Response : =================================
+2022-03-29 20:10:36,995-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:36,995-INFO-0#No Error
+2022-03-29 20:10:36,995-INFO-End   : =========================================================================
+2022-03-29 20:10:38,026-INFO-Start : =========================================================================
+2022-03-29 20:10:38,026-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'ZTE_ONUTYPE': '100M'}
+2022-03-29 20:10:38,026-INFO-command xml : FTTH_ZTEX_BIDP.xml
+2022-03-29 20:10:38,026-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:38,026-INFO-Response : =================================
+2022-03-29 20:10:38,026-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:38,026-INFO-0#No Error
+2022-03-29 20:10:38,026-INFO-End   : =========================================================================
+2022-03-29 20:10:41,033-INFO-Start : =========================================================================
+2022-03-29 20:10:41,033-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE'}
+2022-03-29 20:10:41,033-INFO-command xml : lst_vlan.xml
+2022-03-29 20:10:41,033-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:41,033-INFO-Response : =================================
+2022-03-29 20:10:41,033-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>33</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:41,033-INFO-{'VOBB': '660'}
+2022-03-29 20:10:41,048-INFO-End   : =========================================================================
+2022-03-29 20:10:41,298-INFO-Start : =========================================================================
+2022-03-29 20:10:41,298-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '660'}
+2022-03-29 20:10:41,298-INFO-command xml : FTTH_VSER_PORT.xml
+2022-03-29 20:10:41,298-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:41,298-INFO-Response : =================================
+2022-03-29 20:10:41,298-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:41,298-INFO-0#No Error
+2022-03-29 20:10:41,298-INFO-End   : =========================================================================
+2022-03-29 20:10:43,533-INFO-Start : =========================================================================
+2022-03-29 20:10:43,533-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB'}
+2022-03-29 20:10:43,533-INFO-command xml : lst_vlan.xml
+2022-03-29 20:10:43,533-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:43,533-INFO-Response : =================================
+2022-03-29 20:10:43,533-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>33</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:43,533-INFO-{'EVLAN': '1000', 'SVLAN': '1571'}
+2022-03-29 20:10:43,533-INFO-End   : =========================================================================
+2022-03-29 20:10:43,751-INFO-Start : =========================================================================
+2022-03-29 20:10:43,751-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1571'}
+2022-03-29 20:10:43,751-INFO-command xml : FTH_ISER_POT.xml
+2022-03-29 20:10:43,751-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1571</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:43,751-INFO-Response : =================================
+2022-03-29 20:10:43,751-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:43,751-INFO-0#No Error
+2022-03-29 20:10:43,751-INFO-End   : =========================================================================
+2022-03-29 20:10:44,298-INFO-Start : =========================================================================
+2022-03-29 20:10:44,298-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'ADSL_ZTE_USERNAME': '94112967555'}
+2022-03-29 20:10:44,298-INFO-command xml : FTTH_INT_USRADD.xml
+2022-03-29 20:10:44,298-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CHG-ONUWANIP</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>IPHOSTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>PPPOEUSER</name>
+               <value>94112967555@sltbb</value>
+           </param>
+	<param>
+               <name>PPPOEPWD</name>
+               <value>test123</value>
+           </param>
+	<param>
+               <name>VID</name>
+               <value>20</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:10:44,298-INFO-Response : =================================
+2022-03-29 20:10:44,298-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:10:44,298-INFO-0#No Error
+2022-03-29 20:10:44,298-INFO-End   : =========================================================================
+2022-03-30 10:07:31,744-INFO-Start : =========================================================================
+2022-03-30 10:07:31,744-INFO-Input Data : {'ADSL_ZTE_DNAME': 'HAV_C300M_04', 'FTTH_ZTE_PID': '1-1-15-8', 'FTTH_HUW_VP': '27', 'FTH_ORDER_TYPE': 'FTH_VOICE'}
+2022-03-30 10:07:31,744-INFO-command xml : lst_vlan.xml
+2022-03-30 10:07:31,744-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>HAV_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-30 10:07:31,744-INFO-Response : =================================
+2022-03-30 10:07:31,744-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>28</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>19</value></param><param><name>VLANNAME</name><value>ENTERPRISE_WIFI</value></param></record><record><param><name>VLANID</name><value>32</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D78642_SOFTLOGIC_LIFE</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>284</value></param><param><name>VLANNAME</name><value>D42036_SIERRA_CONSTRUCTION</value></param></record><record><param><name>VLANID</name><value>313</value></param><param><name>VLANNAME</name><value>D58007_UNIPOWER_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>626</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>651</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VLAN0660</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>721</value></param><param><name>VLANNAME</name><value>D46768_HNB</value></param></record><record><param><name>VLANID</name><value>722</value></param><param><name>VLANNAME</name><value>VLAN0722</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1582</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1682</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D92640_SOFTLOGIC_LIFE_INSURANCE</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D96213_SOFTLOGIC_LIFE_INS_PLC</value></param></record><record><param><name>VLANID</name><value>3298</value></param><param><name>VLANNAME</name><value>D70249_GAMMA_PIZZAKRAFT</value></param></record><record><param><name>VLANID</name><value>3435</value></param><param><name>VLANNAME</name><value>D69459_SL_POLICE</value></param></record><record><param><name>VLANID</name><value>3461</value></param><param><name>VLANNAME</name><value>D69432_SL_POLICE</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-30 10:07:31,744-INFO-{'VOBB': '661'}
+2022-03-30 10:07:31,744-INFO-End   : =========================================================================
+2022-03-30 10:07:32,072-INFO-Start : =========================================================================
+2022-03-30 10:07:32,072-INFO-Input Data : {'ADSL_ZTE_DNAME': 'HAV_C300M_04', 'FTTH_ZTE_PID': '1-1-15-8', 'FTTH_HUW_VP': '27', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '661'}
+2022-03-30 10:07:32,072-INFO-command xml : FTTH_VSER_PORT.xml
+2022-03-30 10:07:32,072-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>HAV_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-15-8-27</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>661</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-30 10:07:32,072-INFO-Response : =================================
+2022-03-30 10:07:32,072-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>DDOF</statusCode><statusDesc>device operation failed (Resource already exists.)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-30 10:07:32,072-INFO-DDOF#device operation failed (Resource already exists.)
+2022-03-30 10:07:32,072-INFO-End   : =========================================================================
+2022-03-30 14:25:08,609-INFO-Start : =========================================================================
+2022-03-30 14:25:08,609-INFO-Input Data : {'ADSL_ZTE_DNAME': 'PH_C300M_12', 'FTTH_ZTE_PID': '1-1-19-4', 'FTTH_HUW_VP': '25', 'FTH_ORDER_TYPE': 'FTH_BB'}
+2022-03-30 14:25:08,609-INFO-command xml : lst_vlan.xml
+2022-03-30 14:25:08,609-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>PH_C300M_12</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-30 14:25:08,609-INFO-Response : =================================
+2022-03-30 14:25:08,609-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>22</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>89</value></param><param><name>VLANNAME</name><value>VLAN0089</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1220</value></param><param><name>VLANNAME</name><value>VLAN1220</value></param></record><record><param><name>VLANID</name><value>1519</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1619</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1620</value></param><param><name>VLANNAME</name><value>VLAN1620</value></param></record><record><param><name>VLANID</name><value>1651</value></param><param><name>VLANNAME</name><value>VLAN1651</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>VLAN1900</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-30 14:25:08,609-INFO-{'EVLAN': '1000', 'SVLAN': '1519'}
+2022-03-30 14:25:08,609-INFO-End   : =========================================================================
+2022-03-30 14:25:08,922-INFO-Start : =========================================================================
+2022-03-30 14:25:08,922-INFO-Input Data : {'ADSL_ZTE_DNAME': 'PH_C300M_12', 'FTTH_ZTE_PID': '1-1-19-4', 'FTTH_HUW_VP': '25', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1519'}
+2022-03-30 14:25:08,922-INFO-command xml : FTH_ISER_POT.xml
+2022-03-30 14:25:08,922-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>PH_C300M_12</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-19-4-25</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1519</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-30 14:25:08,922-INFO-Response : =================================
+2022-03-30 14:25:08,922-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>DDOF</statusCode><statusDesc>device operation failed (Resource already exists.)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-03-30 14:25:08,922-INFO-DDOF#device operation failed (Resource already exists.)
+2022-03-30 14:25:08,922-INFO-End   : =========================================================================
+2022-04-05 21:07:45,891-INFO-Start : =========================================================================
+2022-04-05 21:07:45,891-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60'}
+2022-04-05 21:07:45,891-INFO-command xml : FTTH_DEL_ONU.xml
+2022-04-05 21:07:45,891-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:07:45,891-INFO-Response : =================================
+2022-04-05 21:07:45,891-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:07:45,891-INFO-0#N
+2022-04-05 21:07:45,891-INFO-End   : =========================================================================
+2022-04-05 21:08:03,703-INFO-Start : =========================================================================
+2022-04-05 21:08:03,703-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_HUW_VP': '60', 'ZTE_NMS_REGID': '94112967555', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-04-05 21:08:03,703-INFO-command xml : FTTH_ZTEADD_ONU.xml
+2022-04-05 21:08:03,703-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>60</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112967555</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:03,703-INFO-Response : =================================
+2022-04-05 21:08:03,703-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:03,703-INFO-0#No Error
+2022-04-05 21:08:03,703-INFO-End   : =========================================================================
+2022-04-05 21:08:04,750-INFO-Start : =========================================================================
+2022-04-05 21:08:04,750-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'ZTE_ONUTYPE': '100M'}
+2022-04-05 21:08:04,750-INFO-command xml : FTTH_ZTEX_BIDP.xml
+2022-04-05 21:08:04,750-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:04,750-INFO-Response : =================================
+2022-04-05 21:08:04,750-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:04,750-INFO-0#No Error
+2022-04-05 21:08:04,750-INFO-End   : =========================================================================
+2022-04-05 21:08:06,894-INFO-Start : =========================================================================
+2022-04-05 21:08:06,894-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE'}
+2022-04-05 21:08:06,894-INFO-command xml : lst_vlan.xml
+2022-04-05 21:08:06,894-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:06,894-INFO-Response : =================================
+2022-04-05 21:08:06,894-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>34</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>3010</value></param><param><name>VLANNAME</name><value>VLAN3010</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:06,909-INFO-{'VOBB': '660'}
+2022-04-05 21:08:06,909-INFO-End   : =========================================================================
+2022-04-05 21:08:07,128-INFO-Start : =========================================================================
+2022-04-05 21:08:07,128-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '660'}
+2022-04-05 21:08:07,128-INFO-command xml : FTTH_VSER_PORT.xml
+2022-04-05 21:08:07,128-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:07,128-INFO-Response : =================================
+2022-04-05 21:08:07,128-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:07,144-INFO-0#No Error
+2022-04-05 21:08:07,144-INFO-End   : =========================================================================
+2022-04-05 21:08:09,032-INFO-Start : =========================================================================
+2022-04-05 21:08:09,032-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB'}
+2022-04-05 21:08:09,032-INFO-command xml : lst_vlan.xml
+2022-04-05 21:08:09,032-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:09,032-INFO-Response : =================================
+2022-04-05 21:08:09,032-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>34</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>3010</value></param><param><name>VLANNAME</name><value>VLAN3010</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:09,032-INFO-{'EVLAN': '1000', 'SVLAN': '1571'}
+2022-04-05 21:08:09,032-INFO-End   : =========================================================================
+2022-04-05 21:08:09,314-INFO-Start : =========================================================================
+2022-04-05 21:08:09,314-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1571'}
+2022-04-05 21:08:09,314-INFO-command xml : FTH_ISER_POT.xml
+2022-04-05 21:08:09,314-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1571</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:09,314-INFO-Response : =================================
+2022-04-05 21:08:09,314-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:09,314-INFO-0#No Error
+2022-04-05 21:08:09,314-INFO-End   : =========================================================================
+2022-04-05 21:08:09,939-INFO-Start : =========================================================================
+2022-04-05 21:08:09,939-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'ADSL_ZTE_USERNAME': '94112967555'}
+2022-04-05 21:08:09,939-INFO-command xml : FTTH_INT_USRADD.xml
+2022-04-05 21:08:09,939-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CHG-ONUWANIP</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>IPHOSTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>PPPOEUSER</name>
+               <value>94112967555@sltbb</value>
+           </param>
+	<param>
+               <name>PPPOEPWD</name>
+               <value>test123</value>
+           </param>
+	<param>
+               <name>VID</name>
+               <value>20</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-05 21:08:09,939-INFO-Response : =================================
+2022-04-05 21:08:09,939-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-05 21:08:09,939-INFO-0#No Error
+2022-04-05 21:08:09,939-INFO-End   : =========================================================================
+2022-04-06 09:56:50,453-INFO-Start : =========================================================================
+2022-04-06 09:56:50,453-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60'}
+2022-04-06 09:56:50,453-INFO-command xml : FTTH_DEL_ONU.xml
+2022-04-06 09:56:50,453-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:56:50,453-INFO-Response : =================================
+2022-04-06 09:56:50,453-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:56:50,453-INFO-0#N
+2022-04-06 09:56:50,453-INFO-End   : =========================================================================
+2022-04-06 09:57:27,708-INFO-Start : =========================================================================
+2022-04-06 09:57:27,708-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_HUW_VP': '60', 'ZTE_NMS_REGID': '94112967555', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-04-06 09:57:27,708-INFO-command xml : FTTH_ZTEADD_ONU.xml
+2022-04-06 09:57:27,708-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>60</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112967555</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:27,708-INFO-Response : =================================
+2022-04-06 09:57:27,708-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:27,708-INFO-0#No Error
+2022-04-06 09:57:27,708-INFO-End   : =========================================================================
+2022-04-06 09:57:28,754-INFO-Start : =========================================================================
+2022-04-06 09:57:28,754-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'ZTE_ONUTYPE': '100M'}
+2022-04-06 09:57:28,754-INFO-command xml : FTTH_ZTEX_BIDP.xml
+2022-04-06 09:57:28,754-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:28,754-INFO-Response : =================================
+2022-04-06 09:57:28,754-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:28,754-INFO-0#No Error
+2022-04-06 09:57:28,754-INFO-End   : =========================================================================
+2022-04-06 09:57:36,001-INFO-Start : =========================================================================
+2022-04-06 09:57:36,001-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE'}
+2022-04-06 09:57:36,001-INFO-command xml : lst_vlan.xml
+2022-04-06 09:57:36,001-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:36,001-INFO-Response : =================================
+2022-04-06 09:57:36,001-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>34</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>3010</value></param><param><name>VLANNAME</name><value>VLAN3010</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:36,001-INFO-{'VOBB': '660'}
+2022-04-06 09:57:36,001-INFO-End   : =========================================================================
+2022-04-06 09:57:36,251-INFO-Start : =========================================================================
+2022-04-06 09:57:36,251-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_VOICE', 'VOBB': '660'}
+2022-04-06 09:57:36,251-INFO-command xml : FTTH_VSER_PORT.xml
+2022-04-06 09:57:36,251-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:36,251-INFO-Response : =================================
+2022-04-06 09:57:36,251-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:36,251-INFO-0#No Error
+2022-04-06 09:57:36,251-INFO-End   : =========================================================================
+2022-04-06 09:57:39,010-INFO-Start : =========================================================================
+2022-04-06 09:57:39,010-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB'}
+2022-04-06 09:57:39,010-INFO-command xml : lst_vlan.xml
+2022-04-06 09:57:39,010-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>LST-VLANID</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+		         </operatedObject>
+         <!--Optional:-->
+         <operationParam>
+            <!--Zero or more repetitions:-->
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:39,010-INFO-Response : =================================
+2022-04-06 09:57:39,010-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status><result><record><param><name>totalrecord</name><value>34</value></param></record></result><result><record><param><name>VLANID</name><value>1</value></param><param><name>VLANNAME</name><value>VLAN0001</value></param></record><record><param><name>VLANID</name><value>18</value></param><param><name>VLANNAME</name><value>ONE_ACCESS_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>20</value></param><param><name>VLANNAME</name><value>VLAN0020</value></param></record><record><param><name>VLANID</name><value>30</value></param><param><name>VLANNAME</name><value>VLAN0030</value></param></record><record><param><name>VLANID</name><value>31</value></param><param><name>VLANNAME</name><value>MSAG_MGT</value></param></record><record><param><name>VLANID</name><value>50</value></param><param><name>VLANNAME</name><value>Multicast</value></param></record><record><param><name>VLANID</name><value>77</value></param><param><name>VLANNAME</name><value>ROUTER_MANAGEMENT</value></param></record><record><param><name>VLANID</name><value>101</value></param><param><name>VLANNAME</name><value>D88551_MELISTA_RAGAMA</value></param></record><record><param><name>VLANID</name><value>102</value></param><param><name>VLANNAME</name><value>D78322_LEASONS_BAT</value></param></record><record><param><name>VLANID</name><value>103</value></param><param><name>VLANNAME</name><value>D90466_SOFTLOGIC_INTL_PVT_LTD</value></param></record><record><param><name>VLANID</name><value>121</value></param><param><name>VLANNAME</name><value>ETMB_Alarms</value></param></record><record><param><name>VLANID</name><value>625</value></param><param><name>VLANNAME</name><value>NB_Signalling</value></param></record><record><param><name>VLANID</name><value>650</value></param><param><name>VLANNAME</name><value>NB_Media</value></param></record><record><param><name>VLANID</name><value>660</value></param><param><name>VLANNAME</name><value>VOBB</value></param></record><record><param><name>VLANID</name><value>661</value></param><param><name>VLANNAME</name><value>VLAN0661</value></param></record><record><param><name>VLANID</name><value>777</value></param><param><name>VLANNAME</name><value>VLAN0777</value></param></record><record><param><name>VLANID</name><value>1000</value></param><param><name>VLANNAME</name><value>Entree</value></param></record><record><param><name>VLANID</name><value>1569</value></param><param><name>VLANNAME</name><value>VLAN1569</value></param></record><record><param><name>VLANID</name><value>1570</value></param><param><name>VLANNAME</name><value>VLAN1570</value></param></record><record><param><name>VLANID</name><value>1571</value></param><param><name>VLANNAME</name><value>SVLAN</value></param></record><record><param><name>VLANID</name><value>1572</value></param><param><name>VLANNAME</name><value>VLAN1572</value></param></record><record><param><name>VLANID</name><value>1669</value></param><param><name>VLANNAME</name><value>VLAN1669</value></param></record><record><param><name>VLANID</name><value>1671</value></param><param><name>VLANNAME</name><value>IPTV_SVLAN</value></param></record><record><param><name>VLANID</name><value>1672</value></param><param><name>VLANNAME</name><value>VLAN1672</value></param></record><record><param><name>VLANID</name><value>1900</value></param><param><name>VLANNAME</name><value>E_NET_ACCESS</value></param></record><record><param><name>VLANID</name><value>2000</value></param><param><name>VLANNAME</name><value>IPTV</value></param></record><record><param><name>VLANID</name><value>3001</value></param><param><name>VLANNAME</name><value>D81120_NATIONAL_WATER_SUPPLY</value></param></record><record><param><name>VLANID</name><value>3002</value></param><param><name>VLANNAME</name><value>D81678_CEYLON_HOSPITALS</value></param></record><record><param><name>VLANID</name><value>3003</value></param><param><name>VLANNAME</name><value>D82866_L_B_FINANCE_PLC</value></param></record><record><param><name>VLANID</name><value>3007</value></param><param><name>VLANNAME</name><value>D87014_ALLIANZ_INSURANCE</value></param></record><record><param><name>VLANID</name><value>3010</value></param><param><name>VLANNAME</name><value>VLAN3010</value></param></record><record><param><name>VLANID</name><value>4091</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4091</value></param></record><record><param><name>VLANID</name><value>4092</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4092</value></param></record><record><param><name>VLANID</name><value>4094</value></param><param><name>VLANNAME</name><value>ZTE_Reserved_4094</value></param></record></result></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:39,010-INFO-{'EVLAN': '1000', 'SVLAN': '1571'}
+2022-04-06 09:57:39,010-INFO-End   : =========================================================================
+2022-04-06 09:57:39,291-INFO-Start : =========================================================================
+2022-04-06 09:57:39,291-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'FTH_ORDER_TYPE': 'FTH_BB', 'EVLAN': '1000', 'SVLAN': '1571'}
+2022-04-06 09:57:39,291-INFO-command xml : FTH_ISER_POT.xml
+2022-04-06 09:57:39,291-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1571</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:39,291-INFO-Response : =================================
+2022-04-06 09:57:39,291-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:39,291-INFO-0#No Error
+2022-04-06 09:57:39,291-INFO-End   : =========================================================================
+2022-04-06 09:57:39,885-INFO-Start : =========================================================================
+2022-04-06 09:57:39,885-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_HUW_VP': '60', 'ADSL_ZTE_USERNAME': '94112967555'}
+2022-04-06 09:57:39,885-INFO-command xml : FTTH_INT_USRADD.xml
+2022-04-06 09:57:39,885-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CHG-ONUWANIP</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-4-11-60</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>IPHOSTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>PPPOEUSER</name>
+               <value>94112967555@sltbb</value>
+           </param>
+	<param>
+               <name>PPPOEPWD</name>
+               <value>test123</value>
+           </param>
+	<param>
+               <name>VID</name>
+               <value>20</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 09:57:39,885-INFO-Response : =================================
+2022-04-06 09:57:39,885-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 09:57:39,885-INFO-0#No Error
+2022-04-06 09:57:39,885-INFO-End   : =========================================================================
+2022-04-06 10:00:26,020-INFO-Start : =========================================================================
+2022-04-06 10:00:26,020-INFO-Input Data : {'ADSL_ZTE_DNAME': 'RG_C300M_04', 'FTTH_ZTE_PID': '1-1-4-11', 'FTTH_ONT_SN': 'ZTEGCB1846A4', 'FTTH_HUW_VP': '60', 'ZTE_NMS_REGID': '94112967555', 'ZTE_ONUTYPE': 'ZTE-F660'}
+2022-04-06 10:00:26,020-INFO-command xml : FTTH_ZTEADD_ONU.xml
+2022-04-06 10:00:26,020-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>RG_C300M_04</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-4-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCB1846A4</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>60</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112967555</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:00:26,020-INFO-Response : =================================
+2022-04-06 10:00:26,020-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>IRE</statusCode><statusDesc>resource already exists (ONUNO SN NAME)</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-04-06 10:00:26,020-INFO-IRE#resource already exists (ONUNO SN NAME)
+2022-04-06 10:00:26,020-INFO-End   : =========================================================================

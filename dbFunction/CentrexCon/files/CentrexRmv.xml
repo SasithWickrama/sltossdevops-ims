@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+    <SOAP-ENV:Header>
+        <m:Authentication>
+            <m:Username>sltprovision</m:Username>
+            <m:Password>SoftX3000@</m:Password>
+        </m:Authentication>
+        <m:MessageID>1</m:MessageID>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <m:RMV_CXSBR>
+            <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+            <m:IMPU>tel:+tpno</m:IMPU>
+        </m:RMV_CXSBR>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

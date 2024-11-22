@@ -1,0 +1,443 @@
+2022-03-22 10:32:34,676-ERROR-dbChY0V0pH  [Errno 2] No such file or directory: 'files/CentrexAdd.xml'
+2022-03-22 10:32:34,676-INFO-dbChY0V0pH  End   : =========================================================================
+2022-03-22 10:33:41,881-INFO-Fxg0vtpvmZ  Start : =========================================================================
+2022-03-22 10:33:41,881-INFO-Fxg0vtpvmZ  command xml : CentrexAdd.xml
+2022-03-22 10:33:42,163-INFO-Fxg0vtpvmZ  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>477</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94112413978</m:IMPU>
+      <m:CXD>843</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO>1</m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-22 10:33:42,163-INFO-Fxg0vtpvmZ  Response : =================================
+2022-03-22 10:33:42,163-INFO-Fxg0vtpvmZ  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>10010505</m:ResultCode><m:ResultDesc>Execution of the ME command fails. The detail is: " Result/ResultCode=35240;
+ Result/ResultDesc=wel_ats01-The new Centrex short number already exists in this group.
+".</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-22 10:33:42,163-INFO-Fxg0vtpvmZ  10010505#Execution of the ME command fails. The detail is: " Result/ResultCode=35240;\n Result/ResultDesc=wel_ats01-The new Centrex short number already exists in this group.\n".
+2022-03-22 10:33:42,163-INFO-Fxg0vtpvmZ  End   : =========================================================================
+2022-03-22 10:40:39,669-INFO-uwqvr5oIxW  Start : =========================================================================
+2022-03-22 10:40:39,669-INFO-uwqvr5oIxW  command xml : CentrexAdd.xml
+2022-03-22 10:40:40,653-INFO-uwqvr5oIxW  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>477</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94212211080</m:IMPU>
+      <m:CXD>899</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO>1</m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-22 10:40:40,653-INFO-uwqvr5oIxW  Response : =================================
+2022-03-22 10:40:40,653-INFO-uwqvr5oIxW  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-22 10:40:40,653-INFO-uwqvr5oIxW  0#Operation succeeded.
+2022-03-22 10:40:40,653-INFO-uwqvr5oIxW  End   : =========================================================================
+2022-03-22 10:43:40,150-ERROR-JuEYrWEUJq  [Errno 2] No such file or directory: 'files/CentrexRmv.xml'
+2022-03-22 10:43:40,150-INFO-JuEYrWEUJq  End   : =========================================================================
+2022-03-22 10:44:06,753-INFO-E0X4LuRKpy  Start : =========================================================================
+2022-03-22 10:44:06,753-INFO-E0X4LuRKpy  command xml : CentrexRmv.xml
+2022-03-22 10:44:08,081-INFO-E0X4LuRKpy  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+    <SOAP-ENV:Header>
+        <m:Authentication>
+            <m:Username>sltprovision</m:Username>
+            <m:Password>SoftX3000@</m:Password>
+        </m:Authentication>
+        <m:MessageID>1</m:MessageID>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <m:RMV_CXSBR>
+            <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+            <m:IMPU>tel:+94212211080</m:IMPU>
+        </m:RMV_CXSBR>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-03-22 10:44:08,081-INFO-E0X4LuRKpy  Response : =================================
+2022-03-22 10:44:08,081-INFO-E0X4LuRKpy  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:RMV_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:RMV_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-03-22 10:44:08,081-INFO-E0X4LuRKpy  0#Operation succeeded.
+2022-03-22 10:44:08,081-INFO-E0X4LuRKpy  End   : =========================================================================
+2022-04-08 12:16:20,704-INFO-HblnHxBQ01  Start : =========================================================================
+2022-04-08 12:16:20,704-INFO-HblnHxBQ01  command xml : CentrexAdd.xml
+2022-04-08 12:16:21,095-INFO-HblnHxBQ01  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>785</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94112767727</m:IMPU>
+      <m:CXD>202</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-08 12:16:21,095-INFO-HblnHxBQ01  Response : =================================
+2022-04-08 12:16:21,095-INFO-HblnHxBQ01  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>10010505</m:ResultCode><m:ResultDesc>Execution of the ME command fails. The detail is: " Result/ResultCode=35104;
+ Result/ResultDesc=wel_ats01-The specified centrex sub-group ID does not exist.
+".</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-08 12:16:21,095-INFO-HblnHxBQ01  10010505#Execution of the ME command fails. The detail is: " Result/ResultCode=35104;\n Result/ResultDesc=wel_ats01-The specified centrex sub-group ID does not exist.\n".
+2022-04-08 12:16:21,095-INFO-HblnHxBQ01  End   : =========================================================================
+2022-04-11 09:31:07,229-INFO-UJ8l203hlG  Start : =========================================================================
+2022-04-11 09:31:07,229-INFO-UJ8l203hlG  command xml : CentrexAdd.xml
+2022-04-11 09:31:07,526-INFO-UJ8l203hlG  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261130</m:IMPU>
+      <m:CXD>100</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 09:31:07,526-INFO-UJ8l203hlG  Response : =================================
+2022-04-11 09:31:07,526-INFO-UJ8l203hlG  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>10010505</m:ResultCode><m:ResultDesc>Execution of the ME command fails. The detail is: " Result/ResultCode=35104;
+ Result/ResultDesc=wel_ats01-The specified centrex sub-group ID does not exist.
+".</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:31:07,526-INFO-UJ8l203hlG  10010505#Execution of the ME command fails. The detail is: " Result/ResultCode=35104;\n Result/ResultDesc=wel_ats01-The specified centrex sub-group ID does not exist.\n".
+2022-04-11 09:31:07,526-INFO-UJ8l203hlG  End   : =========================================================================
+2022-04-11 09:49:26,024-INFO-MiZh7TnLJx  Start : =========================================================================
+2022-04-11 09:49:26,024-INFO-MiZh7TnLJx  command xml : CentrexAdd.xml
+2022-04-11 09:49:26,914-INFO-MiZh7TnLJx  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261130</m:IMPU>
+      <m:CXD>100</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 09:49:26,930-INFO-MiZh7TnLJx  Response : =================================
+2022-04-11 09:49:26,930-INFO-MiZh7TnLJx  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 09:49:26,930-INFO-MiZh7TnLJx  0#Operation succeeded.
+2022-04-11 09:49:26,930-INFO-MiZh7TnLJx  End   : =========================================================================
+2022-04-11 10:28:36,151-INFO-I2346uCG6i  Start : =========================================================================
+2022-04-11 10:28:36,151-INFO-I2346uCG6i  command xml : CentrexAdd.xml
+2022-04-11 10:28:36,260-INFO-I2346uCG6i  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG></m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94323124055</m:IMPU>
+      <m:CXD></m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO>0</m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 10:28:36,260-INFO-I2346uCG6i  Response : =================================
+2022-04-11 10:28:36,260-INFO-I2346uCG6i  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>10010505</m:ResultCode><m:ResultDesc>Execution of the ME command fails. The detail is: " faultcode=SOAP-ENV:Server;
+ faultstring=VPP failed to convert soap message to omu request frame;
+ detail/OperationFault/FaultReason=VPP failed to convert soap message to omu request frame
+".</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 10:28:36,260-INFO-I2346uCG6i  10010505#Execution of the ME command fails. The detail is: " faultcode=SOAP-ENV:Server;\n faultstring=VPP failed to convert soap message to omu request frame;\n detail/OperationFault/FaultReason=VPP failed to convert soap message to omu request frame\n".
+2022-04-11 10:28:36,260-INFO-I2346uCG6i  End   : =========================================================================
+2022-04-11 10:46:02,402-INFO-zi8EpgY9Uf  Start : =========================================================================
+2022-04-11 10:46:02,402-INFO-zi8EpgY9Uf  command xml : CentrexAdd.xml
+2022-04-11 10:46:03,305-INFO-zi8EpgY9Uf  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261131</m:IMPU>
+      <m:CXD>101</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 10:46:03,305-INFO-zi8EpgY9Uf  Response : =================================
+2022-04-11 10:46:03,305-INFO-zi8EpgY9Uf  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 10:46:03,305-INFO-zi8EpgY9Uf  0#Operation succeeded.
+2022-04-11 10:46:03,305-INFO-zi8EpgY9Uf  End   : =========================================================================
+2022-04-11 10:46:40,693-INFO-uBWVbaR21M  Start : =========================================================================
+2022-04-11 10:46:40,693-INFO-uBWVbaR21M  command xml : CentrexAdd.xml
+2022-04-11 10:46:41,521-INFO-uBWVbaR21M  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261132</m:IMPU>
+      <m:CXD>102</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 10:46:41,521-INFO-uBWVbaR21M  Response : =================================
+2022-04-11 10:46:41,521-INFO-uBWVbaR21M  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 10:46:41,521-INFO-uBWVbaR21M  0#Operation succeeded.
+2022-04-11 10:46:41,521-INFO-uBWVbaR21M  End   : =========================================================================
+2022-04-11 12:57:37,685-INFO-bUZpi3k3wf  Start : =========================================================================
+2022-04-11 12:57:37,701-INFO-bUZpi3k3wf  command xml : CentrexAdd.xml
+2022-04-11 12:57:38,420-INFO-bUZpi3k3wf  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261136</m:IMPU>
+      <m:CXD>103</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 12:57:38,435-INFO-bUZpi3k3wf  Response : =================================
+2022-04-11 12:57:38,435-INFO-bUZpi3k3wf  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 12:57:38,435-INFO-bUZpi3k3wf  0#Operation succeeded.
+2022-04-11 12:57:38,435-INFO-bUZpi3k3wf  End   : =========================================================================
+2022-04-11 12:58:05,590-INFO-4XZutT82M3  Start : =========================================================================
+2022-04-11 12:58:05,590-INFO-4XZutT82M3  command xml : CentrexAdd.xml
+2022-04-11 12:58:06,247-INFO-4XZutT82M3  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261137</m:IMPU>
+      <m:CXD>104</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 12:58:06,247-INFO-4XZutT82M3  Response : =================================
+2022-04-11 12:58:06,247-INFO-4XZutT82M3  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 12:58:06,247-INFO-4XZutT82M3  0#Operation succeeded.
+2022-04-11 12:58:06,247-INFO-4XZutT82M3  End   : =========================================================================
+2022-04-11 12:58:34,188-INFO-5pmpbYNNgV  Start : =========================================================================
+2022-04-11 12:58:34,188-INFO-5pmpbYNNgV  command xml : CentrexAdd.xml
+2022-04-11 12:58:34,845-INFO-5pmpbYNNgV  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://www.huawei.com/SPG">
+  <SOAP-ENV:Header>
+    <m:Authentication>
+      <m:Username>sltprovision</m:Username>
+      <m:Password>SoftX3000@</m:Password>
+    </m:Authentication>
+    <m:MessageID>1</m:MessageID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:ADD_CXSBR>    
+      <m:MEGROUP>Centrex_ATS</m:MEGROUP>
+      <m:UPDFLAG>1</m:UPDFLAG>
+      <m:CXG>675</m:CXG>
+      <m:CXSG>2</m:CXSG>
+      <m:IMPU>tel:+94322261138</m:IMPU>
+      <m:CXD>105</m:CXD>
+      <m:PBXFG>0</m:PBXFG>
+      <m:PKUPID>65535</m:PKUPID>
+      <m:GRPICO>1</m:GRPICO>
+      <m:GRPWCO>1</m:GRPWCO>
+      <m:GRPCO></m:GRPCO>
+      <m:GRPICI>1</m:GRPICI>
+      <m:GRPWCI>1</m:GRPWCI>
+      <m:GRPINCO>1</m:GRPINCO>
+      <m:AUTOCON>0</m:AUTOCON>
+      <m:ODSPMODE>4</m:ODSPMODE>
+    </m:ADD_CXSBR>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2022-04-11 12:58:34,845-INFO-5pmpbYNNgV  Response : =================================
+2022-04-11 12:58:34,845-INFO-5pmpbYNNgV  <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><MessageID xmlns="http://www.huawei.com/SPG">1</MessageID></SOAP-ENV:Header><SOAP-ENV:Body><m:ADD_CXSBRResponse xmlns:m="http://www.huawei.com/SPG"><m:Result><m:ResultCode>0</m:ResultCode><m:ResultDesc>Operation succeeded.</m:ResultDesc></m:Result></m:ADD_CXSBRResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2022-04-11 12:58:34,845-INFO-5pmpbYNNgV  0#Operation succeeded.
+2022-04-11 12:58:34,845-INFO-5pmpbYNNgV  End   : =========================================================================

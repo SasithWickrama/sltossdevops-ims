@@ -1,0 +1,1179 @@
+2022-02-17 20:18:46,064-ERROR-name 'HTTPBasicAuth' is not defined
+2022-02-17 20:20:14,070-INFO-Start : =========================================================================
+2022-02-17 20:20:14,070-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:20:14,070-INFO-Response : =================================
+2022-02-17 20:20:14,070-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:20:14,070-INFO-End   : =========================================================================
+2022-02-17 20:20:14,070-ERROR-can only concatenate str (not "list") to str
+2022-02-17 20:22:59,701-INFO-Start : =========================================================================
+2022-02-17 20:22:59,701-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:22:59,701-INFO-Response : =================================
+2022-02-17 20:22:59,701-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:22:59,701-INFO-End   : =========================================================================
+2022-02-17 20:24:31,863-INFO-Start : =========================================================================
+2022-02-17 20:24:31,863-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:24:31,863-INFO-Response : =================================
+2022-02-17 20:24:31,863-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:24:31,863-INFO-End   : =========================================================================
+2022-02-17 20:25:24,530-INFO-Start : =========================================================================
+2022-02-17 20:25:24,530-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:25:24,530-INFO-Response : =================================
+2022-02-17 20:25:24,530-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:25:24,530-INFO-End   : =========================================================================
+2022-02-17 20:26:53,107-INFO-Start : =========================================================================
+2022-02-17 20:26:53,107-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:26:53,107-INFO-Response : =================================
+2022-02-17 20:26:53,107-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:26:53,107-INFO-End   : =========================================================================
+2022-02-17 20:27:40,987-INFO-Start : =========================================================================
+2022-02-17 20:27:40,987-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:27:40,987-INFO-Response : =================================
+2022-02-17 20:27:40,987-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:27:40,987-INFO-End   : =========================================================================
+2022-02-17 20:32:23,944-INFO-Start : =========================================================================
+2022-02-17 20:32:23,944-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:32:23,944-INFO-Response : =================================
+2022-02-17 20:32:23,944-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:32:23,944-INFO-End   : =========================================================================
+2022-02-17 20:32:23,944-ERROR-list index out of range
+2022-02-17 20:36:14,230-INFO-Start : =========================================================================
+2022-02-17 20:36:14,230-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:36:14,230-INFO-Response : =================================
+2022-02-17 20:36:14,230-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:36:14,230-INFO-End   : =========================================================================
+2022-02-17 20:36:14,230-ERROR-list index out of range
+2022-02-17 20:51:11,562-INFO-Start : =========================================================================
+2022-02-17 20:51:11,562-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:51:11,578-INFO-Response : =================================
+2022-02-17 20:51:11,578-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:51:11,578-INFO-End   : =========================================================================
+2022-02-17 20:52:36,059-INFO-Start : =========================================================================
+2022-02-17 20:52:36,059-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:52:36,059-INFO-Response : =================================
+2022-02-17 20:52:36,059-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:52:36,059-INFO-End   : =========================================================================
+2022-02-17 20:52:45,305-INFO-Start : =========================================================================
+2022-02-17 20:52:45,305-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:52:45,305-INFO-Response : =================================
+2022-02-17 20:52:45,305-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:52:45,305-INFO-End   : =========================================================================
+2022-02-17 20:52:45,320-ERROR-list index out of range
+2022-02-17 20:53:53,142-INFO-Start : =========================================================================
+2022-02-17 20:53:53,142-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:53:53,142-INFO-Response : =================================
+2022-02-17 20:53:53,142-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:53:53,142-INFO-End   : =========================================================================
+2022-02-17 20:54:04,732-INFO-Start : =========================================================================
+2022-02-17 20:54:04,732-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:54:04,732-INFO-Response : =================================
+2022-02-17 20:54:04,732-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:54:04,732-INFO-End   : =========================================================================
+2022-02-17 20:54:04,732-ERROR-list index out of range
+2022-02-17 20:55:10,048-INFO-Start : =========================================================================
+2022-02-17 20:55:10,048-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:55:10,048-INFO-Response : =================================
+2022-02-17 20:55:10,048-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:55:10,048-INFO-End   : =========================================================================
+2022-02-17 20:55:25,955-INFO-Start : =========================================================================
+2022-02-17 20:55:25,955-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:55:25,955-INFO-Response : =================================
+2022-02-17 20:55:25,955-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:55:25,955-INFO-End   : =========================================================================
+2022-02-17 20:55:25,955-ERROR-list index out of range
+2022-02-17 20:56:19,430-INFO-Start : =========================================================================
+2022-02-17 20:56:19,430-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:56:19,430-INFO-Response : =================================
+2022-02-17 20:56:19,430-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:56:19,430-INFO-End   : =========================================================================
+2022-02-17 20:56:28,383-INFO-Start : =========================================================================
+2022-02-17 20:56:28,383-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 20:56:28,383-INFO-Response : =================================
+2022-02-17 20:56:28,383-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 20:56:28,383-INFO-End   : =========================================================================
+2022-02-17 20:56:28,383-ERROR-list index out of range
+2022-02-17 21:18:26,705-INFO-Start : =========================================================================
+2022-02-17 21:18:26,705-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:18:26,705-INFO-Response : =================================
+2022-02-17 21:18:26,705-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:18:26,705-INFO-End   : =========================================================================
+2022-02-17 21:18:30,496-INFO-Start : =========================================================================
+2022-02-17 21:18:30,496-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:18:30,496-INFO-Response : =================================
+2022-02-17 21:18:30,496-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:18:30,496-INFO-End   : =========================================================================
+2022-02-17 21:18:30,496-ERROR-list index out of range
+2022-02-17 21:19:51,642-INFO-Start : =========================================================================
+2022-02-17 21:19:51,642-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:19:51,642-INFO-Response : =================================
+2022-02-17 21:19:51,642-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:19:51,642-INFO-End   : =========================================================================
+2022-02-17 21:19:55,155-INFO-Start : =========================================================================
+2022-02-17 21:19:55,155-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:19:55,155-INFO-Response : =================================
+2022-02-17 21:19:55,155-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:19:55,155-INFO-End   : =========================================================================
+2022-02-17 21:19:55,155-ERROR-list index out of range
+2022-02-17 21:20:29,624-INFO-Start : =========================================================================
+2022-02-17 21:20:29,624-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:20:29,624-INFO-Response : =================================
+2022-02-17 21:20:29,624-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:20:29,624-INFO-End   : =========================================================================
+2022-02-17 21:20:32,908-INFO-Start : =========================================================================
+2022-02-17 21:20:32,923-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:20:32,923-INFO-Response : =================================
+2022-02-17 21:20:32,923-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:20:32,923-INFO-End   : =========================================================================
+2022-02-17 21:20:39,584-INFO-Start : =========================================================================
+2022-02-17 21:20:39,584-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:20:39,584-INFO-Response : =================================
+2022-02-17 21:20:39,584-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:20:39,584-INFO-End   : =========================================================================
+2022-02-17 21:21:21,758-INFO-Start : =========================================================================
+2022-02-17 21:21:21,758-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:21:21,758-INFO-Response : =================================
+2022-02-17 21:21:21,758-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:21:21,758-INFO-End   : =========================================================================
+2022-02-17 21:26:16,629-INFO-Start : =========================================================================
+2022-02-17 21:26:16,629-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:26:16,629-INFO-Response : =================================
+2022-02-17 21:26:16,629-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:26:16,629-INFO-End   : =========================================================================
+2022-02-17 21:29:31,303-INFO-Start : =========================================================================
+2022-02-17 21:29:31,303-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:29:31,303-INFO-Response : =================================
+2022-02-17 21:29:31,303-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:29:31,303-INFO-End   : =========================================================================
+2022-02-17 21:29:49,690-INFO-Start : =========================================================================
+2022-02-17 21:29:49,690-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:29:49,690-INFO-Response : =================================
+2022-02-17 21:29:49,690-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:29:49,690-INFO-End   : =========================================================================
+2022-02-17 21:52:52,279-INFO-Start : =========================================================================
+2022-02-17 21:52:52,279-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:52:52,279-INFO-Response : =================================
+2022-02-17 21:52:52,279-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:52:52,279-INFO-End   : =========================================================================
+2022-02-17 21:58:26,563-INFO-Start : =========================================================================
+2022-02-17 21:58:26,563-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 21:58:26,563-INFO-Response : =================================
+2022-02-17 21:58:26,563-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 21:58:26,563-INFO-End   : =========================================================================
+2022-02-17 22:01:25,690-INFO-Start : =========================================================================
+2022-02-17 22:01:25,706-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:01:25,706-INFO-Response : =================================
+2022-02-17 22:01:25,706-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC configure operation failed
+Caused by: The template 'Stack:SLTN-NOKIA-ONT' is already configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_ALREADY_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:01:25,706-INFO-End   : =========================================================================
+2022-02-17 22:06:02,300-INFO-Start : =========================================================================
+2022-02-17 22:06:02,300-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:06:02,300-INFO-Response : =================================
+2022-02-17 22:06:02,300-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:06:02,300-INFO-End   : =========================================================================
+2022-02-17 22:09:28,296-INFO-Start : =========================================================================
+2022-02-17 22:09:28,296-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:09:28,296-INFO-Response : =================================
+2022-02-17 22:09:28,296-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:09:28,296-INFO-End   : =========================================================================
+2022-02-17 22:09:34,405-INFO-Start : =========================================================================
+2022-02-17 22:09:34,405-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:09:34,405-INFO-Response : =================================
+2022-02-17 22:09:34,405-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:09:34,405-INFO-End   : =========================================================================
+2022-02-17 22:09:34,780-INFO-Start : =========================================================================
+2022-02-17 22:09:34,780-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:09:34,780-INFO-Response : =================================
+2022-02-17 22:09:34,780-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:09:34,780-INFO-End   : =========================================================================
+2022-02-17 22:09:35,249-INFO-Start : =========================================================================
+2022-02-17 22:09:35,249-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:09:35,249-INFO-Response : =================================
+2022-02-17 22:09:35,249-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:09:35,249-INFO-End   : =========================================================================
+2022-02-17 22:10:07,436-INFO-Start : =========================================================================
+2022-02-17 22:10:07,436-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:10:07,436-INFO-Response : =================================
+2022-02-17 22:10:07,436-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:10:07,436-INFO-End   : =========================================================================
+2022-02-17 22:20:13,585-INFO-Start : =========================================================================
+2022-02-17 22:20:13,585-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:13,585-INFO-Response : =================================
+2022-02-17 22:20:13,585-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:13,585-INFO-End   : =========================================================================
+2022-02-17 22:20:13,960-INFO-Start : =========================================================================
+2022-02-17 22:20:13,960-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:13,960-INFO-Response : =================================
+2022-02-17 22:20:13,960-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:13,960-INFO-End   : =========================================================================
+2022-02-17 22:20:14,350-INFO-Start : =========================================================================
+2022-02-17 22:20:14,350-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:14,350-INFO-Response : =================================
+2022-02-17 22:20:14,350-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:14,350-INFO-End   : =========================================================================
+2022-02-17 22:20:35,757-INFO-Start : =========================================================================
+2022-02-17 22:20:35,757-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:35,757-INFO-Response : =================================
+2022-02-17 22:20:35,757-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:35,757-INFO-End   : =========================================================================
+2022-02-17 22:20:41,929-INFO-Start : =========================================================================
+2022-02-17 22:20:41,929-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:41,929-INFO-Response : =================================
+2022-02-17 22:20:41,929-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:41,929-INFO-End   : =========================================================================
+2022-02-17 22:20:48,569-INFO-Start : =========================================================================
+2022-02-17 22:20:48,569-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 22:20:48,569-INFO-Response : =================================
+2022-02-17 22:20:48,569-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 22:20:48,569-INFO-End   : =========================================================================
+2022-02-17 23:03:14,875-INFO-Start : =========================================================================
+2022-02-17 23:03:14,875-INFO-command xml : DEL_ONT_NOKIA.xml
+2022-02-17 23:03:14,875-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:14,875-INFO-Response : =================================
+2022-02-17 23:03:14,875-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:14,875-INFO-End   : =========================================================================
+2022-02-17 23:03:15,235-INFO-Start : =========================================================================
+2022-02-17 23:03:15,235-INFO-command xml : DEL_NK_INTERNET.xml
+2022-02-17 23:03:15,235-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:15,235-INFO-Response : =================================
+2022-02-17 23:03:15,235-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-3HSI-R13 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:15,235-INFO-End   : =========================================================================
+2022-02-17 23:03:15,657-INFO-Start : =========================================================================
+2022-02-17 23:03:15,657-INFO-command xml : DEL_NK_IPTV.xml
+2022-02-17 23:03:15,657-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:15,657-INFO-Response : =================================
+2022-02-17 23:03:15,657-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>RemoteApcExceptionMessage</faultstring><detail><ns:RemoteApcException xmlns:ns="uri://alcatel.com/apc/9.6"><message>APC unconfigure operation failed
+Caused by: The template SLTN-1IPTV-B04 is not configured on the port 'KY_ISAM7360_08:1-1-4-10-18'</message><errorCode>TEMPLATE_NOT_CONFIGURED</errorCode></ns:RemoteApcException></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:15,657-INFO-End   : =========================================================================
+2022-02-17 23:03:32,172-INFO-Start : =========================================================================
+2022-02-17 23:03:32,172-INFO-command xml : ADD_ONT_NOKIA.xml
+2022-02-17 23:03:32,172-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:32,172-INFO-Response : =================================
+2022-02-17 23:03:32,172-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:32,172-INFO-End   : =========================================================================
+2022-02-17 23:03:43,016-INFO-Start : =========================================================================
+2022-02-17 23:03:43,016-INFO-command xml : ADD_NK_INTERNET.xml
+2022-02-17 23:03:43,016-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:43,016-INFO-Response : =================================
+2022-02-17 23:03:43,016-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:43,016-INFO-End   : =========================================================================
+2022-02-17 23:03:46,110-INFO-Start : =========================================================================
+2022-02-17 23:03:46,110-INFO-command xml : ADD_NK_IPTV.xml
+2022-02-17 23:03:46,110-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-02-17 23:03:46,110-INFO-Response : =================================
+2022-02-17 23:03:46,110-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-02-17 23:03:46,110-INFO-End   : =========================================================================
+2022-03-29 20:14:01,678-INFO-Start : =========================================================================
+2022-03-29 20:14:01,678-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:14:01,678-INFO-command xml : DEL_ONT_NOKIA.xml
+2022-03-29 20:14:01,678-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:14:01,678-INFO-Response : =================================
+2022-03-29 20:14:01,678-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:14:01,678-INFO-0#Success
+2022-03-29 20:14:01,678-INFO-End   : =========================================================================
+2022-03-29 20:14:15,797-INFO-Start : =========================================================================
+2022-03-29 20:14:15,797-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18', 'FTTH_ONT_SN': 'ALCLB186A567', 'REGID': '94812222885'}
+2022-03-29 20:14:15,797-INFO-command xml : ADD_ONT_NOKIA.xml
+2022-03-29 20:14:15,797-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:14:15,797-INFO-Response : =================================
+2022-03-29 20:14:15,797-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:14:15,797-INFO-0#Success
+2022-03-29 20:14:15,797-INFO-End   : =========================================================================
+2022-03-29 20:14:22,688-INFO-Start : =========================================================================
+2022-03-29 20:14:22,688-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:14:22,688-INFO-command xml : ADD_NK_INTERNET.xml
+2022-03-29 20:14:22,688-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:14:22,688-INFO-Response : =================================
+2022-03-29 20:14:22,688-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:14:22,688-INFO-0#Success
+2022-03-29 20:14:22,688-INFO-End   : =========================================================================
+2022-03-29 20:14:25,641-INFO-Start : =========================================================================
+2022-03-29 20:14:25,641-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:14:25,641-INFO-command xml : ADD_NK_IPTV.xml
+2022-03-29 20:14:25,641-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:14:25,641-INFO-Response : =================================
+2022-03-29 20:14:25,641-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:14:25,641-INFO-0#Success
+2022-03-29 20:14:25,641-INFO-End   : =========================================================================
+2022-03-29 20:22:28,974-INFO-Start : =========================================================================
+2022-03-29 20:22:28,974-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:22:28,974-INFO-command xml : DEL_ONT_NOKIA.xml
+2022-03-29 20:22:28,974-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:22:28,974-INFO-Response : =================================
+2022-03-29 20:22:28,974-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:22:28,974-INFO-0#Success
+2022-03-29 20:22:28,974-INFO-End   : =========================================================================
+2022-03-29 20:22:36,181-INFO-Start : =========================================================================
+2022-03-29 20:22:36,181-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18', 'FTTH_ONT_SN': 'ALCLB186A567', 'REGID': '94812222885'}
+2022-03-29 20:22:36,181-INFO-command xml : ADD_ONT_NOKIA.xml
+2022-03-29 20:22:36,181-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:22:36,181-INFO-Response : =================================
+2022-03-29 20:22:36,181-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:22:36,181-INFO-0#Success
+2022-03-29 20:22:36,181-INFO-End   : =========================================================================
+2022-03-29 20:22:39,933-INFO-Start : =========================================================================
+2022-03-29 20:22:39,933-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:22:39,933-INFO-command xml : ADD_NK_INTERNET.xml
+2022-03-29 20:22:39,933-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:22:39,933-INFO-Response : =================================
+2022-03-29 20:22:39,933-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:22:39,933-INFO-0#Success
+2022-03-29 20:22:39,933-INFO-End   : =========================================================================
+2022-03-29 20:22:42,308-INFO-Start : =========================================================================
+2022-03-29 20:22:42,308-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-03-29 20:22:42,308-INFO-command xml : ADD_NK_IPTV.xml
+2022-03-29 20:22:42,308-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-03-29 20:22:42,308-INFO-Response : =================================
+2022-03-29 20:22:42,308-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-03-29 20:22:42,308-INFO-0#Success
+2022-03-29 20:22:42,308-INFO-End   : =========================================================================
+2022-04-06 10:01:14,340-INFO-Start : =========================================================================
+2022-04-06 10:01:14,340-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-04-06 10:01:14,340-INFO-command xml : DEL_ONT_NOKIA.xml
+2022-04-06 10:01:14,340-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:clean>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+      </ns:clean>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:01:14,340-INFO-Response : =================================
+2022-04-06 10:01:14,340-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:cleanResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:cleanResponse></soapenv:Body></soapenv:Envelope>
+2022-04-06 10:01:14,340-INFO-0#Success
+2022-04-06 10:01:14,340-INFO-End   : =========================================================================
+2022-04-06 10:01:37,390-INFO-Start : =========================================================================
+2022-04-06 10:01:37,390-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18', 'FTTH_ONT_SN': 'ALCLB186A567', 'REGID': '94812222885'}
+2022-04-06 10:01:37,390-INFO-command xml : ADD_ONT_NOKIA.xml
+2022-04-06 10:01:37,390-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>ALCLB186A567</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>94812222885</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:01:37,390-INFO-Response : =================================
+2022-04-06 10:01:37,390-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-04-06 10:01:37,390-INFO-0#Success
+2022-04-06 10:01:37,390-INFO-End   : =========================================================================
+2022-04-06 10:01:41,109-INFO-Start : =========================================================================
+2022-04-06 10:01:41,109-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-04-06 10:01:41,109-INFO-command xml : ADD_NK_INTERNET.xml
+2022-04-06 10:01:41,109-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:01:41,109-INFO-Response : =================================
+2022-04-06 10:01:41,109-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-04-06 10:01:41,109-INFO-0#Success
+2022-04-06 10:01:41,109-INFO-End   : =========================================================================
+2022-04-06 10:01:43,532-INFO-Start : =========================================================================
+2022-04-06 10:01:43,532-INFO-Input Data : {'ADSL_ZTE_DNAME': 'KY_ISAM7360_08', 'FTTH_ZTE_PID': '1-1-4-10-18'}
+2022-04-06 10:01:43,532-INFO-command xml : ADD_NK_IPTV.xml
+2022-04-06 10:01:43,532-INFO-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>KY_ISAM7360_08:1-1-4-10-18</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-04-06 10:01:43,532-INFO-Response : =================================
+2022-04-06 10:01:43,532-INFO-<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns:configureResponse xmlns:ns="uri://alcatel.com/apc/9.6"><ResultIndicator>Success</ResultIndicator></ns:configureResponse></soapenv:Body></soapenv:Envelope>
+2022-04-06 10:01:43,532-INFO-0#Success
+2022-04-06 10:01:43,532-INFO-End   : =========================================================================
